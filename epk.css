@@ -21,8 +21,8 @@ header {
 
 /* Container to center the content */
 .content-container {
-  max-width: 1200px;
-  height: 250px;
+  max-width: 1080px;
+  height: 425px;
   margin: 0 auto;
   padding: 20px;
   background-image: url('./pics/bg-img.jpg'); /* Replace with the URL or path to your background image */
@@ -31,7 +31,6 @@ header {
   background-repeat: no-repeat; /* Ensure the image does not repeat */
   color: #fff; /* Set the text color to white for better contrast with the background image */
 }
-
 
 .row {
   display: flex;
@@ -53,8 +52,15 @@ header {
 }
 
 .quote {
-  padding: 20px;
+  /* padding: 20px; */
+  margin-top: 200px;
   text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6); /* black background with 60% opacity */
+  padding: 20px; /* Give some padding to avoid the text being too close to the border */
+
+  /* background-color: black; */
+  /* opacity: 0.5; */
 }
 
 .quote blockquote {
@@ -175,6 +181,27 @@ header {
   max-width: 400px; /* Set the maximum width for small images */
   max-height: 400px;
   height: auto; /* Maintain aspect ratio */
+}
+.flyer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* This is to center the images */
+  align-items: center; /* This is to align items vertically in the center */
+}
+
+.flyer-image {
+  padding: 10px;
+  max-width: 400px; /* Set the maximum width for small images */
+  max-height: 400px;
+  height: auto; /* Maintain aspect ratio */
+  display: flex;
+  margin: auto;
+}
+
+.flyer-image img {
+  width: 100%; /* Ensure the image fits the container */
+  max-width: 400px; /* Set the maximum width for small images */
+  max-height: 400px;
 }
 
 .about-image img {
